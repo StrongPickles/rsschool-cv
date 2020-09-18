@@ -24,6 +24,11 @@ __BNTU__
 
 - economist-manager
 
+`2020 - now`
+__RS School__
+
+- JS/Front-end developer
+
 ## English
 
 

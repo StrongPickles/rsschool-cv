@@ -1,2 +1,1 @@
-# Study
-Rolling Scopes
+https://strongpickles.github.io/rsschool-cv/cv

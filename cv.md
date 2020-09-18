@@ -14,6 +14,10 @@
 I have devoted 8 years to graphic design, prepress and printing processes. Now I hold the position of the head of the printing department and realized that routine, lack of career and professional growth oppress me.
 I chose the JS / Front-end development direction, looking at the example of my fellow programmers - every day they solve interesting problems and learn something new. In addition, my experience in design should complement the knowledge gained in training front-end development.
 
+### Skills
+
+Adobe Package, CorelDraw, Pre- & Post-press.
+
 ## Education
 
 `1996 - 2008`
@@ -28,6 +32,8 @@ __BNTU__
 __RS School__
 
 - JS/Front-end developer
+
+
 
 ## English
 

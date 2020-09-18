@@ -7,6 +7,8 @@
   <a href="Nick.Izotov@gmail.com">Nick.Izotov@gmail.com</a>
   | 
   <a href="www.linkedin.com/in/nick-izotov">www.linkedin.com/in/nick-izotov</a>
+  |
+  <a href='https://t.me/StrongPickles'>Telegram</a>
 </div>
 
 ## Summary

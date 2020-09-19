@@ -1,2 +1,2 @@
 https://strongpickles.github.io/rsschool-cv/cv
-https://strongpickles.github.io/rsschool-cv/
+https://strongpickles.github.io/rsschool-cv/index.html

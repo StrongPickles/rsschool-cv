@@ -1,0 +1,567 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    background-color: white;
+    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+p {
+    color: #4E4E4E;
+}
+
+strong {
+    color: #373737;
+}
+
+.page1 {
+    width: 1600px;
+    height: 744px;
+    background-image: url(Assets/bg-image.png);
+    background-position: center;
+    color: white; 
+
+}
+
+.header {
+    width: 100%;
+    height: 95px;
+    align-items: center;
+    padding-top: 11px;
+}
+
+.webdev {
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 582px;
+    height: 100%;
+    list-style-type: none;
+    padding: 16px 0 0 444px;
+    
+}
+
+.checked {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.checked:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+.nav>li {
+    margin-left: 58px;
+    margin-right: 25px;
+    align-content: center
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo1 {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -16px;
+
+}
+
+.wrap {
+    justify-content: center;
+    text-align: center;
+    margin-top: 124px;
+    margin-left: 4px;
+}
+
+.wrap>h1 {
+    font-size: 64px;
+    letter-spacing: 4.5px;
+
+}
+
+.wrap>p {
+    font-size: 18px;
+    width: 504px;
+    height: 50px;
+    margin: -18px 544px 18px;
+    line-height: 132%;
+    color: white;
+}
+
+.get_btn {
+    width: 184px;
+    height: 46px;
+    color: white;
+    background-color: #00AFDB;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 16px 30px;
+    margin-left: -4px;
+    margin-top: 9px;
+}
+
+.get_btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+.nav_social{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.nav_social>li {
+    margin-top: 169px;
+    margin-left: 20px;
+    margin-right: 10px;
+    align-content: center;
+    display: flex;
+}
+
+.nav_social>li:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+/* Страница 2 */
+
+
+.page2 {
+    width: 1600px;
+    height: 842px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.wrap2{
+    width: 407px;
+    height: 233px;
+    justify-content: center;
+    text-align: left;
+    margin-left: 269px;
+    margin-bottom: 61px;
+    
+}
+
+.wrap2>h2{
+    width: 368px;
+    height: 57px;
+    letter-spacing: 1px;
+    line-height: 1.22
+}
+
+.wrap2>p {
+    width: 407px;
+    height: 80px;
+    margin-top: 23px;
+    line-height: 20px;
+}
+
+.wrap2>.get_btn{
+    width: 184px;
+    height: 46px;
+    color: white;
+    background-color: #00AFDB;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 16px 30px;
+    margin-left: 0px;
+    margin-top: 14px;
+}
+
+
+
+.page2>img {
+    width: 407px;
+    height: 582px;
+    margin-left: 150px;
+    margin-left: 248px;
+    margin-bottom: 21px;
+}
+
+
+
+/* Страница 3 */
+
+
+.page3 {
+    width: 1600px;
+    height: 504px;
+    background-color: #F5F6F7;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.community {
+    width: 298px;
+    height: 175px;
+    text-align: center;
+    margin-left: 269px;
+    margin-bottom: 20px;
+}
+
+.community>h3 {
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    margin-left: 2px;
+}
+
+.community>p {
+    margin-top: -5px;
+    line-height: 144%;
+}
+
+.slider_all {
+    margin-top: 1px;
+}
+
+.slider_nav {
+    margin-left: 673px;
+    margin-top: -78px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3.5px;
+    margin-bottom: 2px;
+    margin-right: 7.5px;
+    
+}
+
+.arrow:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+i.arrow.right {
+    transform: rotate(-45deg);
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+i.arrow.left {
+    transform: rotate(135deg);
+    margin-left: 10px;
+}
+
+.slider {
+    width: 894px;
+    height: 244px;
+    display: flex;
+    margin-left: 109px;
+    margin-top: 0;
+
+}
+
+.slider>div {
+    padding-inline-start: 30px;
+}
+
+/* Страница 4 */
+
+
+.page4 {
+    width: 1600px;
+    height: 842px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.page4>img {
+    width: 407px;
+    height: 582px;
+    margin-left: 269px;
+    margin-bottom: 21px;
+}
+
+.implement {
+    width: 407px;
+    height: 184px;
+    margin-right: 378px;
+    margin-bottom: 60px;
+}
+
+.implement>h2 {
+    letter-spacing: 1px;
+}
+
+.implement>p {
+    line-height: 149%;
+    margin-top: 22px;
+}
+
+.learn_btn {
+    width: 180px;
+    height: 46px;
+    color: white;
+    background-color: #00AFDB;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 16px 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.learn_btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+
+/* Страница 5 */
+
+
+.page5 {
+    width: 1600px;
+    height: 524px;
+    background-color: #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Assets/pexels-christina-morillo-1181675\ 12.png);
+    color: white;
+}
+
+
+.container {
+    width: 406px;
+    height: 46px;
+    border: none;
+    display: flex;
+    
+}
+
+.content {
+    width: 406px;
+    height: 104px;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content>h2 {
+    padding-bottom: 11px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.container>input {
+    width: 295px;
+    height: 46px;
+    border: none;
+    padding: 0px 24px 0px;
+}
+
+.btn_chk {
+    width: 66px;
+    height: 46px;
+    border: none;
+    background: #00AFDB;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.btn_chk img:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+/* Страница 6 */
+
+
+.page6 {
+    width: 1600px;
+    height: 464px;
+    background-color: #F5F6F7;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.content2{
+    text-align: center;
+    margin-top: 108px;
+}
+
+.content2>h2 {
+    margin-top: 12px;
+    letter-spacing: 1px;
+    margin-left: 1px;
+}
+
+.content2>p {
+    width: 480px;
+    height: 40px;
+    text-align: center;
+    margin-top: 22px;
+    line-height: 20px;
+}
+
+.downloads {
+    width: 402px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 39px;
+    margin-top: 29px;
+}
+
+.btn_pg6 {
+    width: 186px;
+    height: 46px;
+    border: none;
+    position: relative;
+    padding-top: 2px;
+    padding-right: 65px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #00AFDB;
+    background-image: linear-gradient(90deg, #00afdb 69%, #009CC2 31%);
+}
+
+.btn_pg6:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+.bt1{
+    position: absolute;
+    right: 21px;
+    top: 13px;
+}
+
+.bt1:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+.bt2{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.bt2:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
+
+
+
+
+
+/* Подвал */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 185px;
+    background-color: #000000;
+}
+
+.footer_cont {
+    width: 1280px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.footer_cont>p2 {
+    color: #818181;
+}
+
+.footer_cont ul{
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    height: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.footer_cont ul li + li:before {
+    content: '';
+    width: 1px;
+    height: 8px;
+    background-color: #4E4E4E;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-left: -47px;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+footer p2 {
+    color: white;
+    margin-bottom: -2px;
+}
+
+.nav_footer>li:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 2);
+}
+
